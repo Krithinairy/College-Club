@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 9vh 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 4vh 0;
+    border-radius: 7px;
+}
+.title {
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.main img{
+    width: 45%;
+    margin-right: 3.5vw;
+    border-radius: 7px;
+}
+
+.main div{
+    width: 45%;
+}
+.main div h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.main div h3{
+    font-family: 'Roboto', sans-serif;
+}
+.para{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 1vh 0;
+}

@@ -26,29 +26,13 @@
 }
 
 .typewriter h2 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    font-family: 'Montserrat', sans-serif;
-    font-size: xx-large;   
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;   
+}
   
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 16% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0); }
-  }
 
   #section{
     display: flex;
@@ -56,7 +40,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 2vh 1vw;
-  }
+}
 
   .club{
     margin: 2vh 2vw;
@@ -64,7 +48,7 @@
     text-align: center;
     border-radius: 7px;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+}
 
   .club img{
     width: 15vw;
